@@ -1,0 +1,28 @@
+.navBar {
+    background-color:  red;
+    height: 55px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 25% repeat(3,25%) ;
+    align-items: center;
+
+}
+
+.navBar img {
+    height: 40px;
+}
+
+.navBar a {
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navBar a:first-of-type {
+    margin-left: 30px;
+}
+
+.navBar a:hover {
+    color: yellow;
+}

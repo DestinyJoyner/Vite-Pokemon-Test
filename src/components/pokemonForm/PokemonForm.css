@@ -1,0 +1,33 @@
+.pokemonForm {
+display: grid;
+padding-bottom: 20vh;
+}
+
+
+.pokemonForm input[type="checkbox"], .pokemonForm input[type="radio"]{
+   height: 100px;
+   width: 100px;
+   accent-color: purple;
+}
+
+.pokemonForm input[type="text"] {
+    /* background-color: red; */
+    color: yellow;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.pokemonForm input[type="text"]::placeholder {
+    font-size: 20px;
+    color: navy;
+    text-align: center;
+}
+
+input:focus {
+    outline: none
+}
+
+textarea {
+    padding: 20px;
+}

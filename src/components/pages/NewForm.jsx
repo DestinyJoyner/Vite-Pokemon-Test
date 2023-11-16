@@ -1,10 +1,9 @@
 import React from 'react';
+import PokemonForm from '../pokemonForm/PokemonForm';
 
 function NewForm(props) {
     return (
-        <div>
-            New Form
-        </div>
+      <PokemonForm />
     );
 }
 
