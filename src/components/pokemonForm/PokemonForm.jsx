@@ -56,7 +56,7 @@ function PokemonForm(props) {
         <label 
         htmlFor='name'
         className='pokemonForm_label'> 
-            <span className='pokemonForm_label_text'>Pokemon Name:</span>
+            <span className='pokemonForm_label_text'>Pokemon Name: (text input)</span>
             <input
             type='text'
             id="name" 
@@ -68,8 +68,10 @@ function PokemonForm(props) {
         
         {/* Type */}
 
-        <label>
-            <span>Type:</span>
+        <label 
+        className='pokemonForm_dropdown'
+        htmlFor='type'>
+            <span>Type: (dropdown)</span>
             <select
             id="type"
             value={form.type}
@@ -85,8 +87,10 @@ function PokemonForm(props) {
         </label>
 
         {/* Image */}
-        <label htmlFor='image'>
-            <span>Image</span>
+        <label 
+        className='pokemonForm_url'
+        htmlFor='image'>
+            <span>Image (url input)</span>
             <input
             pattern='https://.*'
             type="url"
@@ -99,7 +103,9 @@ function PokemonForm(props) {
         </label>
 
         {/* Checkboxes */}
-        <label htmlFor='checkbox'>
+        <label 
+        className='pokemonForm_checkbox'
+        htmlFor='checkbox'>
             <span>Checkbox</span>
             <input
             type="checkbox"
@@ -109,8 +115,10 @@ function PokemonForm(props) {
 
         {/* Radio */}
         <label
-        htmlFor='name'
+        className='pokemonForm_radio'
+        htmlFor='size'
         onChange={(e) => {setRadioButton(e.target.value)}}>
+            <span>Size (radio buttons)</span>
            
            <input type='radio' name="size" value="small" />
            <span>S</span> 
@@ -128,7 +136,9 @@ function PokemonForm(props) {
         </label>
 
         {/* Textarea */}
-        <label>
+        <label 
+        className='pokemonForm_textarea'
+        htmlFor='description'>
             <span>Chars. Remaining: {characters}</span>
             <textarea
             rows={"2"}
