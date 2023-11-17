@@ -1,10 +1,12 @@
 .pokemonShow {
     display: grid;
+    grid-template-columns: 65% 35%;
     justify-items: center;
     padding-bottom: 80px;
 }
 
 .pokemonShow h1 {
+    grid-column: span 2;
     background-color: navy;
     color: white;
     width: 50%;
@@ -47,11 +49,26 @@
 }
 
 .pokemonShow_links {
-    display: flex;
-    width: 75%;
-    justify-content: space-evenly;
+  display: grid;
+  height: 50%;
+  width: 80%;
+  align-self: center;
+  justify-self: left;
+  justify-items: center;
+  align-items: center;
 }
 .pokemonShow_links a {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 600;
+    background-color: navy;
+   border-radius: 20px;
+   padding: 10px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+.pokemonShow_links a:hover {
+    background-color: red;
+    color: navy;
 }
