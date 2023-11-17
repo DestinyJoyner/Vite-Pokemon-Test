@@ -12,6 +12,7 @@ export default function RouteComponent() {
     <Routes>
       <Route path="/" element={<Home />} />
 
+      {/* nested routes */}
       <Route path="/pokemon">
         <Route index element={<IndexPage />} />
         <Route path="new" element={<NewForm />} />
