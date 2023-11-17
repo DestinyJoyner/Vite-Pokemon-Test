@@ -7,6 +7,11 @@
     grid-template-columns: 25% repeat(3,25%) ;
     align-items: center;
 
+    position: fixed;
+    left: 0;
+    top: 0;
+
+
 }
 
 .navBar img {

@@ -1,0 +1,35 @@
+.pokemonIndex {
+margin-top: 50px;
+}
+
+.pokemonIndex_list {
+    border: 1px solid purple;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 40px;
+    width: 80%;
+    margin: 0 auto ;
+    max-height: 600px;
+    overflow: scroll;
+    /* overflow: hidden; */
+}
+
+.pokemonIndex_card {
+    border: 1px solid red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 5px -5px 10px navy;
+}
+
+.pokemonIndex_card:hover {
+    transform: scale(1.2);
+}
+
+.pokemonIndex_card img {
+    height: 200px;
+}

@@ -1,10 +1,9 @@
 import React from 'react';
+import PokemonIndex from '../pokemonIndex/PokemonIndex';
 
 function IndexPage(props) {
     return (
-        <div>
-            Index Page
-        </div>
+    <PokemonIndex />
     );
 }
 
