@@ -6,12 +6,18 @@ justify-items: center;
 row-gap: 40px;
 padding-bottom: 20vh;
 border:1px solid red;
+border-radius: 20px;
 color: navy;
 font-size: 22px;
 font-weight: 600;
 padding-top: 20px;
 }
 
+/* h1 */
+.pokemonForm_header {
+    text-align: center;
+    margin-bottom: 10px;
+}
 /* text input / name */
 .pokemonForm_label {
     display: flex;
@@ -39,9 +45,9 @@ padding-top: 20px;
 
 /* url input /image */
 .pokemonForm_url {
-    width: 80%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 70% 30% ;
+    grid-template-columns: 55% 45% ;
     grid-template-rows: 70% 30%;
     align-items: center;
     justify-items: center;
@@ -55,7 +61,7 @@ padding-top: 20px;
     grid-column: 1;
     grid-row: 1;
     height: 40px;
-    width: 500px;
+    width: 400px;
     text-indent: 10px;
 }
 .pokemonForm img {
@@ -127,6 +133,6 @@ textarea {
 }
 
 /* border for selected input */
-*:focus {
+.pokemonForm input:focus, .pokemonForm textarea:focus {
     outline: 3px solid palegreen;
 }

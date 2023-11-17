@@ -1,0 +1,57 @@
+.pokemonShow {
+    display: grid;
+    justify-items: center;
+    padding-bottom: 30px;
+}
+
+.pokemonShow h1 {
+    background-color: navy;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.pokemonShow_card {
+    border: 3px solid navy;
+    display: grid;
+    grid-template-rows: 40% 60%;
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    justify-items: center;
+    background-color: red;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.pokemonShow_card img {
+    height: 300px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: yellow;
+    border: 1px solid navy;
+ 
+}
+.pokemonShow_card_details {
+    display: grid;
+    justify-items: center;
+    row-gap: 20px;
+}
+.pokemonShow_card span {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.pokemonShow_links {
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+}
+.pokemonShow_links a {
+    font-size: 22px;
+    font-weight: 600;
+}

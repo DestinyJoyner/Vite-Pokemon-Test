@@ -1,0 +1,7 @@
+.home {
+   display: grid;
+   width: 80%;
+   justify-items: center; 
+   margin: 0 auto;
+   margin-top: 80px;
+}

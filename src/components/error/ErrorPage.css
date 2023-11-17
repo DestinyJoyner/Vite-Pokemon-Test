@@ -1,0 +1,8 @@
+.error {
+    display: grid;
+    margin: 20px auto;
+    width: 60%;
+    justify-items: center;
+    row-gap: 5vh;
+    font-size: 20px;
+}

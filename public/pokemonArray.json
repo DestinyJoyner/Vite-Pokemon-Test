@@ -1,0 +1,74 @@
+ [
+  {
+      "id": 1,
+      "name": "Bulbasaur",
+      "type": "Grass",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+      "weight": "6.9 kg"
+  },
+  {
+      "id": 2,
+      "name": "Ivysaur",
+      "type": "Grass",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+      "weight": "13.0 kg"
+  },
+  {
+      "id": 3,
+      "name": "Venusaur",
+      "type": "Grass",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+      "weight": "100.0 kg"
+  },
+  {
+      "id": 4,
+      "name": "Charmander",
+      "type": "Fire",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+      "weight": "8.5 kg"
+  },
+  {
+      "id": 5,
+      "name": "Charmeleon",
+      "type": "Fire",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+      "weight": "19.0 kg"
+  },
+  {
+      "id": 6,
+      "name": "Charizard",
+      "type": "Fire",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+      "weight": "90.5 kg"
+  },
+  {
+      "id": 7,
+      "name": "Squirtle",
+      "type": "Water",
+      "image": "https://img.pokemondb.net/artwork/large/squirtle.jpg",
+      "weight": "9.0 kg"
+  },
+  {
+      "id": 8,
+      "name": "Wartortle",
+      "type": "Water",
+      "image": "https://img.pokemondb.net/artwork/large/wartortle.jpg",
+      "weight": "22.5 kg"
+  },
+  {
+      "id": 9,
+      "name": "Blastoise",
+      "type": "Water",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+      "weight": "85.5 kg"
+  },
+  {
+      "id": 10,
+      "name": "Caterpie",
+      "type": "Bug",
+      "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+      "weight": "2.9 kg"
+  }
+]
+
+  
