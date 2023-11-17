@@ -1,0 +1,14 @@
+footer {
+    height: 25px;
+    background-color: navy;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    border-top: 2px solid red;
+}

@@ -1,7 +1,7 @@
 .pokemonShow {
     display: grid;
     justify-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
 }
 
 .pokemonShow h1 {
